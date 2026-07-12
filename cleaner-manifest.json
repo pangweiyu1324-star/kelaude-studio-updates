@@ -2,15 +2,15 @@
   "schemaVersion": 2,
   "version": "2.1.0",
   "releaseNotes": "首次启用 GitHub 远程更新通道；包含 P 开头三段卡密、固定单设备授权、Cloudflare 卡密系统与界面优化。",
-  "publishedAt": "2026-07-12T18:40:22.259Z",
+  "publishedAt": "2026-07-12T18:44:54.407Z",
   "artifacts": {
     "win32-x64": {
       "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.1.0/kelaude-cleaner-2.1.0-windows-x64.exe",
-      "sha256": "4edf18f699e1b2823c14b9f035e71aeca950acb8ff686d4e2a501c1ddffe0eeb",
-      "size": 100947503,
+      "sha256": "cd13f2dc567376fcfe528b307d90b3092692b00299300c6a06b4ba531978bea3",
+      "size": 100947652,
       "format": "exe",
       "fileName": "kelaude-cleaner-2.1.0-windows-x64.exe"
     }
   },
-  "signature": "hCEZhMcs3d6Am1r4riQLGEfTfFC//dK5dZrrWsMjalxMa9thCXU4/aV1tKNESJoqDFwxgVXmyrGm4wjmpp05DQ=="
+  "signature": "npaSjME1n2BXkjw/k337+pMAtvw44QiVp3HG5CaQa0poJw3kfET4lOs7aotJT5QZZeer00YWBgkgUjL/URqUCA=="
 }
