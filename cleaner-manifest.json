@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "version": "2.2.0",
-  "releaseNotes": "新增 Windows 11 强制 DNS 防泄漏：系统与浏览器无明文回退 DoH、阻断常见 DNS/DoT/mDNS/LLMNR/NetBIOS 旁路、失败自动恢复；新增网络 DNS 恢复操作；增强 Chrome、Edge 与 Firefox WebRTC 防泄漏策略验证。",
-  "publishedAt": "2026-07-12T19:09:51.785Z",
+  "releaseNotes": "Windows 新增强制 DNS/WebRTC 防泄漏；macOS 更新到 2.2.0 双架构手动安装预览版，系统级 DNS 扩展和静默更新需 Apple Developer 签名与公证。",
+  "publishedAt": "2026-07-12T19:52:58.958Z",
   "artifacts": {
     "win32-x64": {
       "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.2.0/kelaude-cleaner-2.2.0-windows-x64.exe",
@@ -12,5 +12,25 @@
       "fileName": "kelaude-cleaner-2.2.0-windows-x64.exe"
     }
   },
-  "signature": "W4PAb2cJkKZnKY7jyNNYL2I8jGOyBGRDIkph5gJfspBtUpUlTLRu353ovPA11iHsPCnR+f2eJiggihcvq0cXDg=="
+  "manualDownloads": {
+    "darwin-x64": {
+      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.2.0/kelaude-cleaner-2.2.0-macos-intel-apple-silicon-unsigned.zip",
+      "sha256": "aa773d4ccda519f1faf39913dce0cd867ea19c7858e65b3ff5f5ba5c3fdcc7b0",
+      "size": 250724619,
+      "format": "zip",
+      "fileName": "kelaude-cleaner-2.2.0-macos-intel-apple-silicon-unsigned.zip",
+      "signed": false,
+      "autoInstall": false
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.2.0/kelaude-cleaner-2.2.0-macos-intel-apple-silicon-unsigned.zip",
+      "sha256": "aa773d4ccda519f1faf39913dce0cd867ea19c7858e65b3ff5f5ba5c3fdcc7b0",
+      "size": 250724619,
+      "format": "zip",
+      "fileName": "kelaude-cleaner-2.2.0-macos-intel-apple-silicon-unsigned.zip",
+      "signed": false,
+      "autoInstall": false
+    }
+  },
+  "signature": "LTl6Bu4mk/uRGq4scd1exo6BGStzd/qhqG0v9Jn3XiOjVeRM+v0oUd6o0Qi7rQDUv9uaveFiwP00eQF0y0MXDw=="
 }
