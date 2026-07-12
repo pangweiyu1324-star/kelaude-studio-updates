@@ -1,36 +1,36 @@
 {
   "schemaVersion": 2,
-  "version": "2.2.0",
-  "releaseNotes": "Windows 新增强制 DNS/WebRTC 防泄漏；macOS 更新到 2.2.0 双架构手动安装预览版，系统级 DNS 扩展和静默更新需 Apple Developer 签名与公证。",
-  "publishedAt": "2026-07-12T19:52:58.958Z",
+  "version": "2.3.0",
+  "releaseNotes": "License revocation sync; Windows 10/11 encrypted DNS and WebRTC leak protection fixes; macOS license revalidation.",
+  "publishedAt": "2026-07-12T20:26:08.391Z",
   "artifacts": {
     "win32-x64": {
-      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.2.0/kelaude-cleaner-2.2.0-windows-x64.exe",
-      "sha256": "dd8afc109d2706be598ef6f7333f154613feaaf7ac819fcd57bdd53a9123e715",
-      "size": 100950845,
+      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.3.0/kelaude-cleaner-2.3.0-windows-x64.exe",
+      "sha256": "67bbf75673e72b6820950f1b745bf549aee984cb814096e1f6982e9dd6939e46",
+      "size": 104409948,
       "format": "exe",
-      "fileName": "kelaude-cleaner-2.2.0-windows-x64.exe"
+      "fileName": "kelaude-cleaner-2.3.0-windows-x64.exe"
     }
   },
   "manualDownloads": {
     "darwin-x64": {
-      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.2.0/kelaude-cleaner-2.2.0-macos-intel-apple-silicon-unsigned.zip",
-      "sha256": "aa773d4ccda519f1faf39913dce0cd867ea19c7858e65b3ff5f5ba5c3fdcc7b0",
-      "size": 250724619,
+      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.3.0/kelaude-cleaner-2.3.0-macos-intel-apple-silicon-unsigned.zip",
+      "sha256": "e173205952253e9bdcc9a663c02b2872a757efaafacec05dccd43b1b46489b80",
+      "size": 250730395,
       "format": "zip",
-      "fileName": "kelaude-cleaner-2.2.0-macos-intel-apple-silicon-unsigned.zip",
+      "fileName": "kelaude-cleaner-2.3.0-macos-intel-apple-silicon-unsigned.zip",
       "signed": false,
       "autoInstall": false
     },
     "darwin-arm64": {
-      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.2.0/kelaude-cleaner-2.2.0-macos-intel-apple-silicon-unsigned.zip",
-      "sha256": "aa773d4ccda519f1faf39913dce0cd867ea19c7858e65b3ff5f5ba5c3fdcc7b0",
-      "size": 250724619,
+      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.3.0/kelaude-cleaner-2.3.0-macos-intel-apple-silicon-unsigned.zip",
+      "sha256": "e173205952253e9bdcc9a663c02b2872a757efaafacec05dccd43b1b46489b80",
+      "size": 250730395,
       "format": "zip",
-      "fileName": "kelaude-cleaner-2.2.0-macos-intel-apple-silicon-unsigned.zip",
+      "fileName": "kelaude-cleaner-2.3.0-macos-intel-apple-silicon-unsigned.zip",
       "signed": false,
       "autoInstall": false
     }
   },
-  "signature": "LTl6Bu4mk/uRGq4scd1exo6BGStzd/qhqG0v9Jn3XiOjVeRM+v0oUd6o0Qi7rQDUv9uaveFiwP00eQF0y0MXDw=="
+  "signature": "h1puZ9R7jgBOmtF+/7YUtwpfi/xffCUYpd68GjfXCZNXqzgoqTmdleIepcR3x3PReeiTngepDJRnkRdvxUvLCg=="
 }
