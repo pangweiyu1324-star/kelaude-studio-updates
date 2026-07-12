@@ -1,36 +1,36 @@
 {
   "schemaVersion": 2,
-  "version": "2.3.1",
-  "releaseNotes": "Windows browser policy elevation and diagnostics; DNSCrypt port/service diagnostics and reliable rollback; proxy-region browser language sync with one-click restore.",
-  "publishedAt": "2026-07-12T21:15:34.442Z",
+  "version": "2.3.2",
+  "releaseNotes": "Fix DNSCrypt proxy TOML placement and idempotency; stage-aware rollback; safe restoration for stale, reused, and disconnected Windows adapters.",
+  "publishedAt": "2026-07-12T21:57:34.183Z",
   "artifacts": {
     "win32-x64": {
-      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.3.1/kelaude-cleaner-2.3.1-windows-x64.exe",
-      "sha256": "f1be34423608f3cb8461e573963ab2f81e3bed320dd72ee537c1b1b7836f011c",
-      "size": 104417660,
+      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.3.2/kelaude-cleaner-2.3.2-windows-x64.exe",
+      "sha256": "265e4faf9f0324638d894643a609f08d70fdc6110db53c13fd70664da54596f7",
+      "size": 104418819,
       "format": "exe",
-      "fileName": "kelaude-cleaner-2.3.1-windows-x64.exe"
+      "fileName": "kelaude-cleaner-2.3.2-windows-x64.exe"
     }
   },
   "manualDownloads": {
     "darwin-x64": {
-      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.3.1/kelaude-cleaner-2.3.1-macos-intel-apple-silicon-unsigned.zip",
-      "sha256": "3837d33a3f293b5e3f356d5e1bff90ec3a35f63e4b18ee2716eac4612a38e57e",
-      "size": 250752124,
+      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.3.2/kelaude-cleaner-2.3.2-macos-intel-apple-silicon-unsigned.zip",
+      "sha256": "32e19596188b3b9d16f43a4fffd860e84cdb5759bea4ba8b2921b37959e73866",
+      "size": 250754977,
       "format": "zip",
-      "fileName": "kelaude-cleaner-2.3.1-macos-intel-apple-silicon-unsigned.zip",
+      "fileName": "kelaude-cleaner-2.3.2-macos-intel-apple-silicon-unsigned.zip",
       "signed": false,
       "autoInstall": false
     },
     "darwin-arm64": {
-      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.3.1/kelaude-cleaner-2.3.1-macos-intel-apple-silicon-unsigned.zip",
-      "sha256": "3837d33a3f293b5e3f356d5e1bff90ec3a35f63e4b18ee2716eac4612a38e57e",
-      "size": 250752124,
+      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.3.2/kelaude-cleaner-2.3.2-macos-intel-apple-silicon-unsigned.zip",
+      "sha256": "32e19596188b3b9d16f43a4fffd860e84cdb5759bea4ba8b2921b37959e73866",
+      "size": 250754977,
       "format": "zip",
-      "fileName": "kelaude-cleaner-2.3.1-macos-intel-apple-silicon-unsigned.zip",
+      "fileName": "kelaude-cleaner-2.3.2-macos-intel-apple-silicon-unsigned.zip",
       "signed": false,
       "autoInstall": false
     }
   },
-  "signature": "IF8Ih/fYVpSf4/3f87kMQfzSfCmtzD1qHAiY5Rp4Qz/zF5pbHMwQq89HW285zjOP8/APLy7R8IVkQc8cYPwrCQ=="
+  "signature": "vKHXsvUOF84DXuW0yPFsUiYtV3/in8ezeuHuLN1F2MkBS2W6z4DZdMX5miDzC/v8DwRUJcdv5VxiMeg6V/MEAw=="
 }
