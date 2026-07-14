@@ -1,36 +1,36 @@
 {
   "schemaVersion": 2,
-  "version": "2.3.5",
-  "releaseNotes": "修复 Edge 已安装 AdGuard 仍无法识别：兼容新版 Secure Preferences 省略启用 state 的格式，动态检测全部浏览器 Profile；检测成功后打开实际 Profile 的设置与导入页，超时提供重新检测和官方导入入口。修复网页 Intl 区域仍为 zh-CN：同步 Chrome/Edge Local State 应用区域并回读，Edge 禁止 Windows 区域格式覆盖默认 JavaScript locale，支持安全恢复。",
-  "publishedAt": "2026-07-12T23:53:54.369Z",
+  "version": "2.3.6",
+  "releaseNotes": "优化无卡密网络急救界面：移除无效圆形图标，将立即一键恢复网络移至顶部显眼位置，并将重新检测网络移至底部操作区。",
+  "publishedAt": "2026-07-14T18:58:02.439Z",
   "artifacts": {
     "win32-x64": {
-      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.3.5/kelaude-cleaner-2.3.5-windows-x64.exe",
-      "sha256": "05dd23aff3326810f0bbfb6d6841b51a85ab97c9b01ec69472cb8141e37d8f35",
-      "size": 104426523,
+      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.3.6/kelaude-cleaner-2.3.6-windows-x64.exe",
+      "sha256": "6ba96cbc1017ddbb41d4a5be6327544712bab95e0ba19e79bb2918d67ddd884a",
+      "size": 104435955,
       "format": "exe",
-      "fileName": "kelaude-cleaner-2.3.5-windows-x64.exe"
+      "fileName": "kelaude-cleaner-2.3.6-windows-x64.exe"
     }
   },
   "manualDownloads": {
     "darwin-x64": {
-      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.3.5/kelaude-cleaner-2.3.5-macos-intel-apple-silicon-unsigned.zip",
-      "sha256": "a25d404e3b3221353d62ec15ec2ed35a34671f6b911ff4d3700849e042920bf8",
-      "size": 250775729,
+      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.3.6/kelaude-cleaner-2.3.6-macos-intel-apple-silicon-unsigned.zip",
+      "sha256": "450283bace5fe12a477f2c40d7ef0c000b3361e81b5fcbd0bb1a08fb99fd18e0",
+      "size": 250800519,
       "format": "zip",
-      "fileName": "kelaude-cleaner-2.3.5-macos-intel-apple-silicon-unsigned.zip",
+      "fileName": "kelaude-cleaner-2.3.6-macos-intel-apple-silicon-unsigned.zip",
       "signed": false,
       "autoInstall": false
     },
     "darwin-arm64": {
-      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.3.5/kelaude-cleaner-2.3.5-macos-intel-apple-silicon-unsigned.zip",
-      "sha256": "a25d404e3b3221353d62ec15ec2ed35a34671f6b911ff4d3700849e042920bf8",
-      "size": 250775729,
+      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.3.6/kelaude-cleaner-2.3.6-macos-intel-apple-silicon-unsigned.zip",
+      "sha256": "450283bace5fe12a477f2c40d7ef0c000b3361e81b5fcbd0bb1a08fb99fd18e0",
+      "size": 250800519,
       "format": "zip",
-      "fileName": "kelaude-cleaner-2.3.5-macos-intel-apple-silicon-unsigned.zip",
+      "fileName": "kelaude-cleaner-2.3.6-macos-intel-apple-silicon-unsigned.zip",
       "signed": false,
       "autoInstall": false
     }
   },
-  "signature": "jMpjubT7JLNuUTHyECuk/+uKIA6GfyTlP+Lbz1hXvck5N+eyMG7tCg8C2pOEcnz4LB03jRHZMdeBgg2K6ENNAQ=="
+  "signature": "cGj2h4bAeudGG8W+WKTC+U6GZaTXts4dYCMzeMHovLK1w3RObJw1q/C//IrC4/Jlcv40udnjW64a+WIXoxiVAQ=="
 }
