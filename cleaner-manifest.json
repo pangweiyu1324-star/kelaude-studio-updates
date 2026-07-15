@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "version": "2.3.6",
   "releaseNotes": "优化无卡密网络急救界面：移除无效圆形图标，将立即一键恢复网络移至顶部显眼位置，并将重新检测网络移至底部操作区。",
-  "publishedAt": "2026-07-14T18:58:02.439Z",
+  "publishedAt": "2026-07-15T11:51:54.902Z",
   "artifacts": {
     "win32-x64": {
       "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.3.6/kelaude-cleaner-2.3.6-windows-x64.exe",
@@ -14,23 +14,29 @@
   },
   "manualDownloads": {
     "darwin-x64": {
-      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.3.6/kelaude-cleaner-2.3.6-macos-intel-apple-silicon-unsigned.zip",
-      "sha256": "450283bace5fe12a477f2c40d7ef0c000b3361e81b5fcbd0bb1a08fb99fd18e0",
-      "size": 250800519,
+      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.3.6/kelaude-cleaner-2.3.6-macos-intel-apple-silicon-adhoc.zip",
+      "sha256": "9dcd90a691a33297484cf4d40acf2c3a37e8c72894e1618186801dd069ea4e12",
+      "size": 256560299,
       "format": "zip",
-      "fileName": "kelaude-cleaner-2.3.6-macos-intel-apple-silicon-unsigned.zip",
+      "fileName": "kelaude-cleaner-2.3.6-macos-intel-apple-silicon-adhoc.zip",
       "signed": false,
+      "signatureType": "adhoc",
+      "notarized": false,
+      "trustedDeveloperSignature": false,
       "autoInstall": false
     },
     "darwin-arm64": {
-      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.3.6/kelaude-cleaner-2.3.6-macos-intel-apple-silicon-unsigned.zip",
-      "sha256": "450283bace5fe12a477f2c40d7ef0c000b3361e81b5fcbd0bb1a08fb99fd18e0",
-      "size": 250800519,
+      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.3.6/kelaude-cleaner-2.3.6-macos-intel-apple-silicon-adhoc.zip",
+      "sha256": "9dcd90a691a33297484cf4d40acf2c3a37e8c72894e1618186801dd069ea4e12",
+      "size": 256560299,
       "format": "zip",
-      "fileName": "kelaude-cleaner-2.3.6-macos-intel-apple-silicon-unsigned.zip",
+      "fileName": "kelaude-cleaner-2.3.6-macos-intel-apple-silicon-adhoc.zip",
       "signed": false,
+      "signatureType": "adhoc",
+      "notarized": false,
+      "trustedDeveloperSignature": false,
       "autoInstall": false
     }
   },
-  "signature": "cGj2h4bAeudGG8W+WKTC+U6GZaTXts4dYCMzeMHovLK1w3RObJw1q/C//IrC4/Jlcv40udnjW64a+WIXoxiVAQ=="
+  "signature": "PNUNXb9RmX9NLE0D9H6xw5suoFCE7cCiGEp6ZsGKKFwdrZiE7bK+fKwmPK5CSQU2jA31DncreBqO4lDR8MfxAQ=="
 }
