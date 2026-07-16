@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "version": "2.3.7",
   "releaseNotes": "- “同步代理节点地区时区”升级为“同步代理节点地区时区区域”：按当前公网出口同步系统时区和国家/地区，并支持一键恢复中国北京时间与中国区域。\n- 浏览器全部 Cookie 与缓存清理迁入清理中心，覆盖 Cookie、缓存、Local/Session Storage、IndexedDB 与 Cache Storage；完成后清理项目自动消失。\n- 重构 Windows 10/11 DNS 防泄漏：采用多组 DoH 上游，仅接管物理网卡并避开 Clash、v2rayN、sing-box 等代理/TUN 网卡；仅阻断明文 DNS 端口，加入执行前后验证、服务恢复和失败自动回滚，显著降低断网风险。\n- macOS 版隐藏系统 DNS、AdGuard 企业策略等当前不可执行项目，仅保留可用功能。",
-  "publishedAt": "2026-07-16T14:06:16.353Z",
+  "publishedAt": "2026-07-16T14:51:31.801Z",
   "artifacts": {
     "win32-x64": {
       "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.3.7/kelaude-cleaner-2.3.7-windows-x64.exe",
@@ -12,5 +12,31 @@
       "fileName": "kelaude-cleaner-2.3.7-windows-x64.exe"
     }
   },
-  "signature": "Sc5ueGi+RqGUCf1PCRFBbZRAzYNGYIAVwU37T3Y+yW3c1HqLys0qKOIHKhQknvav9HW/gx8GLZO8R9tYOiqKCg=="
+  "manualDownloads": {
+    "darwin-x64": {
+      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.3.7/kelaude-cleaner-2.3.7-macos-intel-apple-silicon-adhoc.zip",
+      "sha256": "f0f9d08328eefe237f3fbc610981bacdad1d10eb73872ffb0e34a12476c3b626",
+      "size": 256565672,
+      "format": "zip",
+      "fileName": "kelaude-cleaner-2.3.7-macos-intel-apple-silicon-adhoc.zip",
+      "signed": false,
+      "signatureType": "adhoc",
+      "notarized": false,
+      "trustedDeveloperSignature": false,
+      "autoInstall": false
+    },
+    "darwin-arm64": {
+      "url": "https://github.com/pangweiyu1324-star/kelaude-studio-updates/releases/download/v2.3.7/kelaude-cleaner-2.3.7-macos-intel-apple-silicon-adhoc.zip",
+      "sha256": "f0f9d08328eefe237f3fbc610981bacdad1d10eb73872ffb0e34a12476c3b626",
+      "size": 256565672,
+      "format": "zip",
+      "fileName": "kelaude-cleaner-2.3.7-macos-intel-apple-silicon-adhoc.zip",
+      "signed": false,
+      "signatureType": "adhoc",
+      "notarized": false,
+      "trustedDeveloperSignature": false,
+      "autoInstall": false
+    }
+  },
+  "signature": "CBe8IOsGxI8+PlxsJ6azU2KnEjLolB6YJlby4JD0O29Xu/Up+M7FOSYf3AlBS2UG3Y9yBoDdtElSnwsLXGxdCA=="
 }
